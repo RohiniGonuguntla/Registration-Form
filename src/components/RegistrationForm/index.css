@@ -1,0 +1,43 @@
+/* Write your CSS code here */
+.registration-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 15px;
+  width: 30%;
+}
+.submit-button {
+  background-color: #ea580c;
+  color: #ffffff;
+  border-radius: 5px;
+  border-width: 0px;
+  width: 65px;
+  margin-top: 10px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  color: #ea580c;
+  font-family: Roboto;
+}
+.error {
+  color: #ff0b37;
+  font-family: Roboto;
+}
+.button {
+  background-color: #ea580c;
+  color: #ffffff;
+  border-radius: 5px;
+  border-width: 0px;
+}
